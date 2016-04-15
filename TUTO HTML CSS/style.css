@@ -1,0 +1,142 @@
+
+body{
+    font-family: "Josefin Sans";
+    margin-right: 80px;
+  
+  /*background: linear-gradient(58deg, #00A1FF, rgba(218, 233, 242, 0));*/
+  background: url(marioland.jpeg) fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(255,255,255, .5);
+
+}
+
+
+
+
+h1{
+    color: deepskyblue;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    font-family: fantasy;
+    font-size: -webkit-xxx-large;
+
+}
+
+.titre img{
+
+    margin-left: 1000px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(15deg);
+
+}
+
+h2{
+    color: #00A8FF;
+    border-bottom: solid 1px black;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.smilenor{
+
+}
+
+p{
+    margin-left: 80px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 80px;
+    padding-bottom: 20px;
+}
+
+h3{
+    margin-left: 80px;
+    color: black;
+    text-decoration: underline;
+
+}
+
+.html img{
+    width:250px;
+    height: 350px;
+    margin-left: 80px;
+}
+
+.etape{
+        display: inline-table;
+
+}
+.etape img {
+    margin-left: 80px;
+     width: 235px;
+    height: 340px;
+}
+
+.htmlcss{
+    text-align: center;
+    color: red;
+}
+
+.css img{
+  margin-left: 80px;
+width: 235px;
+height: 340px;
+display: list-item;
+margin-top: 15px;
+}
+
+.screen3{margin-left: 80px;
+width: 340px;
+height: 240px;
+display: list-item;
+margin-top: 15px;}
+
+.modimg img{
+height:200px;
+width:400px;
+}
+
+footer{
+        s
+    height: 500px;
+
+}
+
+.mario1{
+ margin-left: 222px;
+}
+
+.mario2{
+        margin-right: 222px;
+}
+
+.sonic {
+    
+position: fixed;
+  background-repeat: no-repeat;
+     -webkit-box-reflect: below 1px -webkit-gradient(linear, 0 0%, 0 100%, from(transparent), color-stop(0.7, transparent), to(white));
+     transform: rotateY(180deg);
+    text-align: left;
+
+
+}
+
+.sonic img{
+    margin-top: 318px;
+}
+footer{
+margin-left: 500px;
+}
+
+footer p{
+    color:green;
+    font-size: 80px;
+    
+}
+

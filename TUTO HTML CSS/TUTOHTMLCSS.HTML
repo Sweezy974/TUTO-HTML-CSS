@@ -1,0 +1,213 @@
+<html>
+<head>
+<title>
+DEBUTER EN HTML CSS !
+</title>
+<link rel=stylesheet href="style.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bitter">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+<meta charset=utf-8>
+</head>
+<body>
+<section class="tout">
+<section class=titre>
+<h1>CREE TON PROPRE SITE INTERNET !  </h1>
+
+<img src="smile.png">
+</section>
+    <!--INTRO-->
+<section class="intro">
+    <h2>Introduction</h2>
+    <p>Tu veux apprendre à créer ton propre site ? Tu es sur la bonne Page :) !
+    <br>Sur notre site tu vas acquérir des bases solides pour pouvoir créer ta propre page internet et te la péter devant tes potes :D !
+    <br>Pour ça il te faut au moins un matériel ! Mais lequel? Ton Ordinateur Bien-sûr ! :D
+    <br>Pour bien commencer , muni toi de ton ordinateur et télécharge un éditeur de texte spécialisé pour la programmation , on te recommande un très bon logiciel gratuit qui s'appelle ATOM , pour te faciliter la tâche tu n'as qu'à cliquer sur le lien qui correspond à ton système d'exploitation :)  !</p><br>
+        <a href="https://atom.io/download/windows">ATOM pour Windows </a>
+        <a href="https://github.com/atom/atom/releases/download/v1.6.2/atom-amd64.deb">ATOM pour Linux </a>
+        <a href="https://github.com/atom/atom/releases/download/v1.6.2/atom-mac.zip">ATOM pour MAC </a><br>
+
+    </section>
+    <section class="base">
+    <h2>C'est quoi L'HTML/CSS ?</h2>
+    <p>L'HTML (de l'anglais "Hyper-Text Media Link") est le squelette c'est à dire la base d'une page internet , qui peux comprendre plusieurs type de média comme les textes,images,liens etc... enfin tu vois le genre !LOL <br>
+    et le CSS(de l'anglais Cascading Style Sheet) est un outil qui sert à personnaliser l'HTML,afin qu'il soit plus agréable à regarder --> à rendre plus jolie quoi!:P </p>
+    </section>
+    <section class="html">
+    <h2 class="htmlcss">Les Bases de L'HTML</h2>
+    <p>Rentrons dans le vif du sujet ! (enfin ! )</p><br>
+    <p> Comme nous l'avons dit plus haut L'HTML est le langage de base d'un site internet , pour être plus précis c'est un langage de "balisage".<br>
+    Un langage de balisage est un langage facile qui consiste à ouvrir et fermer des balises , afin de mieux se repérer dans notre code </p>
+    <h3> La structure de l'Html </h3>
+    <p>Nous allons voir comment structurer le squelette de base de l'html.<br>
+    Tout dabord ouvrons le logiciel ATOM .<br>
+        Dans ATOM  : </p>
+    <div class="etape">
+        <h3>Etape 1 : Crée un nouveau fichier </h3><br>
+    <img src="screen1.jpg">
+        </div>
+         <div class="etape">
+         <h3>Etape 2 : Sauvegarder le fichier en ".html"</h3><br>
+    <img src="Screen2.jpg">
+    <img src="screen4.jpg">
+    <p>(je te conseilles de créer un dossier dans lequel tu placera tous les fichiers en lien avec ton site internet pour facilité ton organisation)</p> <br>
+        </div>
+        <div class="etape">
+            <h3>Etape 3 : Le squelette de base</h3><br>
+            <p>
+            Pour commencer nous allons créer nos balises dans notre fichier html .<br>Tout fichier de type HTML commence par un "&lt;!DOCTYPE html&gt;"  et ensuite nous ouvrons et fermons les balises html comme ceci : &lt;html&gt;et &lt;/html&gt;<br>ces balises vont dire à l'ordinateur qu'il s'agit d'un document avec pour vocabulaire le langage HTML.<br>
+            <em style=color:red;>à noter que les balises html ,englobe tout le code , et chaque balise s'ouvre et se ferme de cette même manière : "&lt;balise&gt; &lt;/balise&gt;"<br>Il est aussi nécessaire de passer à la ligne après l'ouverture d'une balise , celà permettra une meilleur vision de ton code </em><br>
+            -La structure de l'HTML est composé de 2 parties distinctes : <br>
+            la partie "head" c-à-d la tête de l'html, sert à relier les autres fichiers nécessaire au bon fonctionnement de notre page comme le fichier .css (mais on verra celà après :3 ) <br>
+            Ouvrons maintenant nos balises head comme ceci : "&lt;head&gt; &lt;head&gt;"<br>
+            -L'autre partie de l'HTML est le "body" c-à-d le corps de l'HTML,c'est là dedans qu'on peux créer des titres , des paragraphes , insérer des images , vidéos etc etc ..  <br>
+            Toujours de la même manière ouvrons et fermont les balises body !<br>
+            Ton code de base devrait doit ressembler à ça :
+            <br>
+            </p>
+
+
+
+        <img src="screen3.jpg">
+        <h3>Ponctuation dans les textes </h3>
+        <p>Pour avoir des accents des symboles dans notre texte il faut impérativement mettre la balise &lt;meta charset=utf-8&gt; dans notre balise &lt;head&gt;<br>
+        Comme ceci : &lt;head&gt;&lt;meta charset=utf-8&gt;&lt;/head&gt;</p>
+        </div>
+
+
+
+
+    <h2>Les Balises HTML Principales </h2>
+
+    <p>Nous allons maintenant voir les balises les plus courantes en HTML .</p><br>
+    <h3>Les Titres </h3>
+        <p>Les titres dit "heading" en anglais ont plusieurs taille partant du plus important(plus grand ) c-à-d &lt;h1&gt; , au moins important (plus petit) &gt;h6&lt; .</p><br>
+        <p>Exemple : </p>
+        <img src="titre.jpg">
+
+        <h3>les paragraphes :</h3>
+        <p>Les paragraphes se forme de cette manière : &lt;p&gt; &lt;/p&gt; </p>
+        <p>Exemple : </p><br>
+        <p style=color:green;> Mon paragraphe c'est ce que t'es en train de lire .<br>
+    Je viens de passer à la ligne prépare toi à apprendre une nouvelle balise !</p><br>
+        <em style=color:red;><p>Pour sauter une ligne il faut utiliser la balise " &lt;br&gt;" , c'est une balise qui n'a pas besoin d'être fermer ( c'est toujours ça de pris ! )</p></em><br>
+<h3>Style d'écriture</h3>
+<p>Tu voudrais un peu de style dans tes textes? Italique, Gras...
+  Des balises existent pour ça:<br>
+  Pour mettre un texte en gras il te suffit d'utiliser les balises &lt;strong&gt;<br>
+  Pour mettre un texte en italique il te suffit d'utiliser les balises &lt;em&gt;</p>
+  <img src="Style.png" />
+
+        <h3>Les liens :</h3>
+        <p>Exemple: <a href="http://www.facebook.fr">Clique su mon lien té ! </a></p><br>
+        <p>Pour écrire ce lien  rien de compliqué il suffit d'utiliser la balise " a href= "  comme ici :<br>
+         &lt;a href="http//:www.monlien.re"&gt;</p>
+        <h3>Les images :</h3><br>
+        <p>Notre page est un peu triste tu trouves pas ?<br>
+        Pour insérer une image il suffit d'utiliser la balise "img src" comme ici :<br></p>
+        <p>&lt;img src="monimage.jpg"&gt; </p><br>
+        <img src="mario.gif">
+
+
+    </section>
+    <section class="css">
+        <h2 class="htmlcss">Les BASES DU CSS !</h2><br>
+        <p>Nous avons tous nos éléments dans notre page HTML, nous pouvons encore l'embellir.
+          Pour cela nous allons donc utiliser du CSS.<br>
+        Tout d'abord il faudra donc créer une page css. Nous allons procéder de la même  façon que la page html.</p><br>
+<h3>Etape 1:créer un nouveau fichier</h3>
+        <img src="screen1.jpg">
+        <h3>Etape 2:sauvegarder le fichier en".css"</h3>
+        <img src="screen2.jpg">
+        <img class="screen3" src="Screen3.png">
+
+        <h3>Etape 3: lier notre page css à celle de l'HTML</h3>
+        <p>Après avoir créé notre page CSS nous devons lier cette dernière à notre page html.<br>
+        Pour cela nous devons retourner en haut de notre page html, entre nos balises head et entrer ceci:
+        &lt;link rel=stylesheet href="style.css"&gt;</p>
+
+        <img src="css.png">
+
+        <p>Super!Nous pouvons à présent commencer à utiliser notre page CSS,<br>
+        Ouvrons donc notre page css</p>
+
+        <img src="pagecss.png"/>
+
+        <p>Tu veux modifier la taille de ta police, ou même la couleur, le CSS est là!!!
+        Rien de plus simple:
+
+        Si tu veux changer la taille de tes titres (h1,h2...), il te suffit d'écrire comme ceci:</p>
+<div class="modimg">
+        <img src="taille titre.png">
+
+        <p>Et pour la couleur:</p>
+        <img src="couleur.png">
+
+        <p>Comme tu peux le voir, il suffit d'écrire ce que tu veux changer, dans l'exemple le titre h1,
+        d'ouvrir les accolades, et de changer la taille, la couleur et bien d'autres.</p>
+
+        <p>Tu  veux centrer ton texte? Rien de plus simple:</p>
+          <img src="centrer.png"  />
+          <p>De même pour aligner à gauche ou à droite, il suffit juste de changer "center" par "left" ou "right".</p>
+
+          <p>Tu voudrais mettre une image de fond?
+          Pour cela tu utiliseras tout simplement le background-image!
+          Simple non?</p>
+</div>
+
+
+
+
+    </section>
+  </section>
+    
+    <footer>
+        
+        <p>Youpi!! Tu peux à présent créer ta propre page web!!!</p>
+        <img src='mariogros.gif'>
+         
+        
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
